@@ -11,9 +11,9 @@ from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
 SCOPES = ['https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = 'service_account.json'
 
-INPUT_FOLDER_NAME = 'Audio Uploads'
-ARCHIVE_FOLDER_NAME = 'Audio Uploads/Audio Archive'
-OUTPUT_FOLDER_NAME = 'Whisper Transcripties'
+input_folder_id = "1DHe2fJxPOeubsjUESlKdkm_9VUZ0mnVz"
+archive_folder_id = "1ILQkCCbMxeXVLQHFX3HABKy0m7Snl6ol"
+output_folder_id = "1p1GPrrAVASIVdPf0rv6D22uzrDBoycaR"
 AUDIO_EXTENSIONS = ('.mp3', '.m4a', '.wav')
 
 credentials = service_account.Credentials.from_service_account_file(

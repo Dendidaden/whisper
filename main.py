@@ -32,9 +32,9 @@ def get_folder_id_by_path(path):
         parent_id = files[0]['id']
     return parent_id
 
-input_folder_id = 1DHe2fJxPOeubsjUESlKdkm_9VUZ0mnVz
-archive_folder_id = 1ILQkCCbMxeXVLQHFX3HABKy0m7Snl6ol
-output_folder_id = 1p1GPrrAVASIVdPf0rv6D22uzrDBoycaR
+input_folder_id = "1DHe2fJxPOeubsjUESlKdkm_9VUZ0mnVz"
+archive_folder_id = "1ILQkCCbMxeXVLQHFX3HABKy0m7Snl6ol"
+output_folder_id = "1p1GPrrAVASIVdPf0rv6D22uzrDBoycaR"
 
 model = whisper.load_model("medium")
 
